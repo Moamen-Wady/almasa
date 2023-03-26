@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+@media only screen and (max-width: 850px) {
+    body .telt h1 {
+        font-size: calc(var(--rem1) * 1.8);
+    }
+}
+@media only screen and (max-width: 807px) {
+    body .adv {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    body .advgrid p {
+        width: 95%;
+        text-align: center;
+        font-size: calc(var(--rem1) * 1.2);
+    }
+    body .advgrid {
+        text-align: center;
+    }
+    body .telt img {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 775px) {
+    body .telt h1 {
+        font-size: calc(var(--rem1) * 1.5);
+    }
+    body .idea {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 675px) {
+    body .telt h1 {
+        font-size: calc(var(--rem1) * 1.4);
+    }
+    body .telt img {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    body .telt {
+        width: 90%;
+    }
+    body .telt h1 {
+        font-size: calc(var(--rem1) * 3);
+    }
+    body .telt p {
+        font-size: calc(var(--rem1) * 1.5);
+        text-align: center;
+    }
+    body .telt img {
+        width: 70%;
+    }
+    body .whyus {
+        display: block;
+    }
+}
+
+.whyuscont {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: var(--rem1);
+    margin-bottom: var(--rem2);
+}
+
+.whyuscont h1 {
+    font-size: var(--rem3);
+    color: var(--black2);
+    display: block;
+    margin: auto;
+    margin-top: var(--rem1);
+    margin-bottom: var(--rem2);
+    font-family: "Hammersmith One", sans-serif;
+}
+
+.whyus {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.telt {
+    width: 32%;
+    padding: var(--rem05);
+    display: inline-block;
+}
+
+.telt img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 1px dashed darkblue;
+    border-radius: 5%;
+}
+
+.telt h1 {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 500;
+    font-size: var(--rem2);
+    color: darkblue;
+    margin: var(--rem05);
+}
+
+.telt p {
+    font-family: "Catamaran", sans-serif;
+    font-size: calc(var(--rem1) * 1.2);
+    text-transform: capitalize;
+    text-align: left;
+    padding: var(--rem05);
+    font-weight: bold;
+}
+
+.vismis {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.nos {
+    width: 40%;
+}
+
+.nos img {
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin: auto;
+    margin-bottom: var(--rem2);
+}
+
+.nos h1 {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 500;
+    font-size: var(--rem2);
+    color: darkblue;
+    margin: var(--rem5);
+    display: block;
+    margin: auto;
+}
+
+.nos p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: calc(var(--rem1));
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.idea {
+    width: 60%;
+    margin: auto;
+    margin-top: var(--rem1);
+    margin-bottom: var(--rem2);
+}
+
+.idea img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    padding: 1px;
+    border: 1px dashed darkblue;
+}
+
+.idea p {
+    font-size: var(--rem105);
+    font-family: "Poiret One", cursive;
+    font-weight: 900;
+    text-align: justify;
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.idea b {
+    display: inline;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: var(--rem2);
+    color: darkblue;
+}
+
+.advcont h1 {
+    text-align: center;
+    font-family: "catamaran", sans-serif;
+    font-weight: 500;
+    font-size: var(--rem3);
+    color: var(--black2);
+}
+
+.adv {
+    width: 80%;
+    margin: auto;
+    margin-top: var(--rem1);
+    margin-bottom: var(--rem2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.adv > p {
+    font-size: calc(var(--rem1) * 1.2);
+    font-family: "raleway", sans-serif;
+    font-weight: 600;
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.advgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80%;
+    gap: 5px;
+    font-size: var(--rem1);
+}
+
+.advgrid img {
+    width: 30%;
+    display: inline;
+    vertical-align: top;
+    margin: var(--rem1);
+}
+
+.advgrid div {
+    margin: auto;
+    width: 100%;
+}
+
+.advgrid p {
+    display: inline-block;
+    width: 60%;
+    font-family: "raleway", sans-serif;
+    font-weight: 900;
+    text-align: left;
+    color: var(--black2);
+}

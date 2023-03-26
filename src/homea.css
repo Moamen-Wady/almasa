@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marhey&display=swap");
+
+@media only screen and (max-width: 850px) {
+    body .atelt h1 {
+        font-size: calc(var(--rem1) * 1.8);
+    }
+}
+@media only screen and (max-width: 807px) {
+    body .aadv {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    body .aadvgrid p {
+        width: 95%;
+        text-align: center;
+        font-size: calc(var(--rem1) * 1.2);
+    }
+    body .aadvgrid {
+        text-align: center;
+    }
+    body .atelt img {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 775px) {
+    body .atelt h1 {
+        font-size: calc(var(--rem1) * 1.5);
+    }
+    body .aidea {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 675px) {
+    body .atelt h1 {
+        font-size: calc(var(--rem1) * 1.4);
+    }
+    body .atelt img {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    body .atelt {
+        width: 90%;
+    }
+    body .atelt h1 {
+        font-size: calc(var(--rem1) * 3);
+    }
+    body .atelt p {
+        font-size: calc(var(--rem1) * 1.5);
+        text-align: center;
+    }
+    body .atelt img {
+        width: 70%;
+    }
+    body .awhyus {
+        display: block;
+    }
+}
+
+.a {
+    direction: rtl;
+}
+
+.awhyuscont {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: var(--rem1);
+    margin-bottom: var(--rem2);
+}
+
+.awhyuscont h1 {
+    font-size: var(--rem3);
+    color: var(--black2);
+    display: block;
+    margin: auto;
+    margin-top: var(--rem1);
+    margin-bottom: var(--rem2);
+    font-family: "Lemonada", cursive;
+}
+
+.awhyus {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.atelt {
+    width: 32%;
+    padding: var(--rem05);
+    display: inline-block;
+}
+
+.atelt img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 1px dashed darkblue;
+    border-radius: 5%;
+}
+
+.atelt h1 {
+    font-family: "Lemonada", cursive;
+    font-weight: 500;
+    font-size: var(--rem2);
+    color: darkblue;
+    margin: var(--rem05);
+}
+
+.atelt p {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: calc(var(--rem1) * 1.2);
+    text-transform: capitalize;
+    text-align: right;
+    padding: var(--rem05);
+    font-weight: bold;
+}
+
+.avismis {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.anos {
+    width: 40%;
+}
+
+.anos img {
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin: auto;
+    margin-bottom: var(--rem2);
+}
+
+.anos h1 {
+    font-family: "Lemonada", cursive;
+    font-weight: 500;
+    font-size: var(--rem2);
+    color: darkblue;
+    margin: var(--rem5);
+    display: block;
+    margin: auto;
+}
+
+.anos p {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: calc(var(--rem1));
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.aidea {
+    width: 60%;
+    margin: auto;
+    margin-top: var(--rem1);
+    margin-bottom: var(--rem2);
+}
+
+.aidea img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    padding: 1px;
+    border: 1px dashed darkblue;
+}
+
+.aidea p {
+    font-size: var(--rem105);
+    font-family: "Marhey", cursive;
+    font-weight: 900;
+    text-align: justify;
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.aidea b {
+    display: inline;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: var(--rem2);
+    color: darkblue;
+}
+
+.aadvcont h1 {
+    text-align: center;
+    font-family: "Lemonada", cursive;
+    font-weight: 500;
+    font-size: var(--rem3);
+    color: var(--black2);
+}
+
+.aadv {
+    width: 80%;
+    margin: auto;
+    margin-top: var(--rem1);
+    margin-bottom: var(--rem2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.aadv > p {
+    font-size: calc(var(--rem1) * 1.2);
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 600;
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.aadvgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80%;
+    gap: 5px;
+    font-size: var(--rem1);
+}
+
+.aadvgrid img {
+    width: 30%;
+    display: inline;
+    vertical-align: top;
+    margin: var(--rem1);
+}
+
+.aadvgrid div {
+    margin: auto;
+    width: 100%;
+}
+
+.aadvgrid p {
+    display: inline-block;
+    width: 60%;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 900;
+    text-align: right;
+    color: var(--black2);
+}
