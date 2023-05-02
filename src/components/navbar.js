@@ -18,15 +18,21 @@ export default function Navbar() {
         <div className='nvbr ' id="mm">
             <div className='topbar '>
                 <div>
-                    <p>Welcome To AlMasa Solutions</p>
+                <p>WELCOME TO ALMASA</p>
                     <div className='lgs '>
+                        <div className="lang">
+                            <span><img src='uk.png' alt='' /></span>
+                            <div className="langc">
+                                <Link to={ x + "ar" + xx } className='lanlink'>العربية</Link>
+                            </div>
+                        </div>
                         <a
                             href="https://www.facebook.com/"
                             target="_blank" rel="noreferrer"
                         ><img src="fb.png" alt=""
                             /></a>
                         <a
-                            href="https://instagram.com/"
+                            href="https://instagram.com/almasapackpackaging?igshid=YmMyMTA2M2Y="
                             target="_blank" rel="noreferrer"
                         ><img src="ig.png" alt=""
                             /></a>
@@ -41,23 +47,6 @@ export default function Navbar() {
                         ><img src="tw.png" alt=""
                             /></a>
                     </div>
-                </div>
-            </div>
-            <div className='mid-nvb'>
-                <img className='img1 ' src='logo.jpg' alt='' />
-                <div className='ncontact'>
-                    <img src='location.png' alt='location' />
-                    <p>
-                        Business Center
-                    </p>
-                    <img src='phone.png' alt='phone' />
-                    <p>
-                        <a href="tel:">0547807870</a>
-                    </p>
-                    <img src='mail.png' alt='mail' />
-                    <p>
-                        <a href="mailto:">solutions.com</a>
-                    </p>
                 </div>
             </div>
         </div>

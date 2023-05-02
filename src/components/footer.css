@@ -75,6 +75,17 @@
         --rem4: 2.6rem;
         --rem5: 3rem;
     }
+    body .map iframe {
+        display: block;
+        margin: auto;
+        width: 98%;
+        border-radius: 0;
+    }
+    body .map .xfc {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 500px) {
     :root {
@@ -136,17 +147,18 @@
     --black: rgb(26, 24, 24);
     --black2: rgb(48, 43, 43);
     --gold: rgb(219, 216, 28);
+    --yellow: ;
 }
 
 .ff {
-    background: darkblue;
+    background: #538391;
     border-top: 1px solid black;
 }
 .xcon {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background: darkblue;
+    background: #538391;
     padding: var(--rem1);
 }
 
@@ -162,8 +174,7 @@
     margin: auto;
     z-index: 5000;
     font-size: calc(var(--rem1) * 1.5);
-    font-family: "Barlow", sans-serif;
-    font-weight: bold;
+    font-family: "El Messiri", sans-serif;
     color: black;
     text-indent: 0;
     padding: 0;
@@ -184,7 +195,7 @@
     color: white;
 }
 .xl .ll:hover {
-    color: #17b8e6;
+    color: var(--black2);
 }
 
 .imx {
@@ -214,15 +225,15 @@
 
 .contact h1 {
     font-size: var(--rem2);
-    font-family: "Hammer one", sans-serif;
+    font-family: "El Messiri", sans-serif;
+    text-indent: var(--rem1);
 }
 .contact p {
     display: inline-block;
     font-size: var(--rem1);
     color: white;
     text-decoration: none;
-    font-family: "Catamaran", sans-serif;
-    font-weight: bold;
+    font-family: "El Messiri", sans-serif;
     margin-left: var(--rem1);
     margin-right: var(--rem1);
 }
@@ -246,9 +257,21 @@
 }
 
 .map iframe {
-    width: 99%;
-    height: calc(var(--rem5) * 4);
-    display: block;
+    width: 45%;
+    height: calc(var(--rem5) * 7.5);
+    display: inline-block;
     margin: auto;
     border: 2px solid white;
+    border-radius: 5%;
+}
+
+.map .xfc {
+    width: 50%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.xfc .form {
+    background: transparent;
 }

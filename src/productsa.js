@@ -1,14 +1,15 @@
 import './services.css'
 import React, { useEffect } from 'react'
-import Navbar from './components/navbar'
-import Footer from './components/footer'
-import Banner from './components/banner'
-import Ul from './components/ul'
+import Navbara from './components/navbara'
+import Footera from './components/footera'
+import Bannera from './components/bannera'
+import Clients from './components/clients'
+import Ula from './components/ula'
 
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-export default function Services() {
+export default function Productsa() {
 
   function scrollToHash() {
 
@@ -26,12 +27,14 @@ export default function Services() {
   useEffect( () => scrollToHash(), [] )
   return (
     <>
-      <Navbar />
-      <Ul />
-      <Banner />
+      <Navbara />
+      <Ula />
+      <Bannera />
+      <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInDown">
+        <Clients />
+      </AnimationOnScroll>
 
-      
-      <Footer />
+      <Footera />
 
     </>
   )

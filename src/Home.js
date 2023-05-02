@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import Clients from './components/clients'
 import './home.css'
+import './contact.css'
+import './services.css'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
-import Prefooter from './components/prefooter'
 import Banner from './components/banner'
 import Ul from './components/ul'
 
@@ -33,115 +33,107 @@ export default function Home() {
             <Ul />
             <Banner />
 
-                <div className=' whyuscont '>
-            <AnimationOnScroll animateOnce={true} animateIn="animate__backInDown">
-                    <h1> Hire Us For</h1>
-            </AnimationOnScroll>
-                    <div className=' whyus '>
-                            <div className=' telt '>
-                        <AnimationOnScroll animateOnce={true} animateIn="animate__slideInLeft" >
-                                <h1>Security Clearances</h1>
-                                <img src='security.jpg' alt='Security clearances' />
-                                <p>With our qualified team, we help you in all transactions to extract the security clearances.</p>
-                        </AnimationOnScroll>
-                            </div>
-
-                            <div className=' telt '>
-                        <AnimationOnScroll animateOnce={true} animateIn="animate__slideInLeft" delay={600} >
-                                <h1>Establishing A Facility</h1>
-                                <img src='facility.jpg' alt='Facility establishing' />
-                                <p>Within this step, the required documents shall be signed in order to complete the transaction for the country.</p>
-                        </AnimationOnScroll>
-                            </div>
-
-                            <div className=' telt '>
-                        <AnimationOnScroll animateOnce={true} animateIn="animate__slideInLeft" delay={1200}>
-                                <h1>Residence</h1>
-                                <img src='residence.jpg' alt='residence visa extracting' />
-                                <p>With the help of our team, we speed up the process of extracting the required residence and visas.</p>
-                        </AnimationOnScroll>
-                            </div>
-
-                    </div>
-                    <hr style={ { width: '80%' } } />
-                </div>
-
-            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
-
-                <div className=' idea '>
-                    <img src='idea.jpg' alt='Motivational Business Quote' />
-                    <p>
-                        <b>“</b>It Takes An Idea, Faith And Immense Amount Of Hard Working...
-                        But, Eventually, Dreams Come True.<b>”</b>
+            <div className=' vismis '>
+                <div className='nos1'>
+                    <h1> We Will Provide Best Industrial Plastic Solutions and Services that fits your needs and business.</h1>
+                    <p>We are committed to offer a variety of plastic containers. Especially right now, we’re doing everything we can to provide the packaging needed for your product to hit the market. Our goal is to wow you, now and throughout the life of your business.
                     </p>
+                    <ul>
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 300 } >
+                            <li>- Quality Control System</li>
+                        </AnimationOnScroll>
+
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 400 } >
+                            <li>- Professional and Qualified</li>
+                        </AnimationOnScroll>
+
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 500 } >
+                            <li>- 100% Satisfaction Guarantee</li>
+                        </AnimationOnScroll>
+
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 600 } >
+                            <li>- Environmentally Safe Raw Materials</li>
+                        </AnimationOnScroll>
+
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 600 } >
+                            <li>- Highly Professional Staff</li>
+                        </AnimationOnScroll>
+
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 600 } >
+                            <li>- Personalized solutions</li>
+                        </AnimationOnScroll>
+
+                    </ul>
                 </div>
-            </AnimationOnScroll>
+                <div className='nos2'><img src='5.jpg' alt='' /></div>
+            </div>
+            <hr style={ { width: "80%", color: "white" } } />
 
-            <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
-
-                <div className=' vismis '>
-                    <div className=' nos '>
-                        <img src='light.png' alt='' />
-                        <h1>Our Vision</h1>
-                        <p>We don’t climb up to Daman, we make it.
-                            Our community of investors, elder statesmen, public figures and businessmen
-                            are in need of an integrated system and an unparalleled service.
-                            So we made our own summit by tending to their every need in order to smoothen the path
-                            towards a steadier and brighter future where great success awaits.
-                            Our vision does not only apply to our beloved country, United Arab Emirates, but extends to the Arabic world.
-                            Thus, we strive to realize our global vision of achieving unprecedented growth in serving the business
-                            and investment sectors.
-                        </p>
+            <div className=' servcont ' >
+                <AnimationOnScroll animateOnce={ true } animateIn="animate__backInDown">
+                    <h1> Our Services</h1>
+                </AnimationOnScroll>
+                <div className=' serv '>
+                    <div className=' telts '>
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__slideInRight" >
+                            <div>
+                                <img src='es.png' alt='' />
+                                <h1>Easly shaped</h1>
+                                <p>Plastic is capable of being manipulated or shaped into any configuration possible.</p>
+                            </div>
+                        </AnimationOnScroll>
                     </div>
-                    <div className=' nos '>
-                        <img src='target.png' alt='' />
-                        <h1>Our Mission</h1>
-                        <p>The mission of our Daman is to excel despite the short time window
-                            to accomplish the tasks entrusted to us with the highest levels of efficiency
-                            with an emphasis on maintaining our credibility and ensuring the utmost transparency
-                            all for your comfort and fulfilling your expectations so as to achieve your satisfaction and approval.
-                            Our mission is to help you realize your dreams on the ground, and to rise up with what we put on the ground
-                            to head to the clouds, and to preserve that forever.
-                            Our mission is for you to close your eyes and open them to innovative solutions
-                            for your problems and a paved road to your success, free of obstacles.
-                        </p>
+
+                    <div className=' telts '>
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__slideInRight" >
+                            <div>
+                                <img src='dollar.png' alt='' />
+                                <h1>Cost Efficient</h1>
+                                <p>Plastic containers are primarily intended for cheap and convenient storage, it is essential that they be versatile in order to accommodate contents of many different shapes and sizes</p>
+                            </div>
+                        </AnimationOnScroll>
+                    </div>
+
+                    <div className=' telts '>
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__slideInRight" delay={ 1200 }>
+                            <div>
+                                <img src='star.png' alt='' />
+                                <h1>Light, Strong & Durable</h1>
+                                <p>Plastic is light but strong and durable as low production cost seals plastic’s position as a preferred material for industry.</p>
+                            </div>
+                        </AnimationOnScroll>
                     </div>
                 </div>
-                <hr style={ { width: '80%' } } />
-            </AnimationOnScroll>
+            </div >
 
-            <AnimationOnScroll animateOnce={true} animateIn="animate__backInLeft">
+            <hr style={ { width: '80%' } } />
+
+            <AnimationOnScroll animateOnce={ true } animateIn="animate__backInLeft">
                 <div className=' advcont '>
                     <h1>Why Choose Us Exactly?</h1>
+                    <p>we produce highly flexible, colorless and semi-crystalline resin in its natural state.
+                        Depending upon how it is processed, it can be semi-rigid to rigid. It shows good dimensional
+                        stability, resistance to impact, moisture, alcohols and solvents.
+                    </p>
                     <div className=' adv '>
                         <div className=' advgrid '>
                             <div>
-                                <img src='star.png' alt='' />
-                                <p>Expertise<br /><br />We are the right term for your business.
-                                    We have the expertise and knowledge to offer impartial advice and services</p>
-                            </div>
-                            <div><img src='dollar.png' alt='' />
-                                <p>Price<br /><br /> We Offer Our Services At An Honest Price To Ensure We Could Help
-                                    Anyone At Any level From The Beginning To The End</p>
+                                <img src='light.png' alt='' />
+                                <p>30+ years of worldwide trust<br /><br />The safety of PET for food, beverage, pharmaceutical and medical applications has been repeatedly demonstrated through extensive studies,
+                                    regulatory approvals, testing, and its widespread acceptance for more than 30 years.</p>
                             </div>
                             <div>
-                                <img src='ear.png' alt='' />
-                                <p>Communication <br /><br /> With us you’ll feel heard. We listen to our client requirements and then select the right solution that fits.
-                                </p>
-                            </div>
-                            <div>
-                                <img src='hand.png' alt='' />
-                                <p>Co-operation<br /><br /> We care for your business as our own.
-                                    We take a sincere interest in it and genuinely want to help your company reach its potential.
+                                <img src='ef.png' alt='' />
+                                <p>Safety & sustainability<br /><br /> we use PET as it is approved as safe for contact with foods
+                                    and beverages by the FDA and health-safety agencies throughout the world.
+                                    PET does not contain bisphenol-A (BPA) or phthalates (plasticizers).
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <hr style={ { width: '80%' } } />
                 </div>
             </AnimationOnScroll>
 
-            <Prefooter />
             <Footer />
 
         </>

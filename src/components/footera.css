@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 
 @media only screen and (min-width: 2000px) {
     :root {
@@ -74,6 +75,17 @@
         --rem4: 2.6rem;
         --rem5: 3rem;
     }
+    body .amap iframe {
+        display: block;
+        margin: auto;
+        width: 98%;
+        border-radius: 0;
+    }
+    body .amap .axfc {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 500px) {
     :root {
@@ -131,21 +143,16 @@
     }
 }
 
-:root {
-    --black: rgb(26, 24, 24);
-    --black2: rgb(48, 43, 43);
-    --gold: rgb(219, 216, 28);
-}
 
 .aff {
-    background: darkblue;
+    background: #538391;
     border-top: 1px solid black;
 }
 .axcon {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background: darkblue;
+    background: #538391;
     padding: var(--rem1);
 }
 
@@ -161,8 +168,7 @@
     margin: auto;
     z-index: 5000;
     font-size: calc(var(--rem1) * 1.5);
-    font-family: "Dosis", sans-serif;
-    font-weight: bold;
+    font-family: "El Messiri", sans-serif;
     color: black;
     text-indent: 0;
     padding: 0;
@@ -183,7 +189,7 @@
     color: white;
 }
 .axl .all:hover {
-    color: #17b8e6;
+    color: var(--black2);
 }
 
 .aimx {
@@ -213,15 +219,15 @@
 
 .acontact h1 {
     font-size: var(--rem2);
-    font-family: "Hammer one", sans-serif;
+    font-family: "El Messiri", sans-serif;
+    text-indent: var(--rem1);
 }
 .acontact p {
     display: inline-block;
     font-size: var(--rem1);
     color: white;
     text-decoration: none;
-    font-family: "Catamaran", sans-serif;
-    font-weight: bold;
+    font-family: "El Messiri", sans-serif;
     margin-left: var(--rem1);
     margin-right: var(--rem1);
 }
@@ -245,9 +251,21 @@
 }
 
 .amap iframe {
-    width: 99%;
-    height: calc(var(--rem5) * 4);
-    display: block;
+    width: 45%;
+    height: calc(var(--rem5) * 7.5);
+    display: inline-block;
     margin: auto;
     border: 2px solid white;
+    border-radius: 5%;
+}
+
+.amap .axfc {
+    width: 50%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.axfc .form {
+    background: transparent;
 }

@@ -74,6 +74,7 @@
         --rem5: 3rem;
     }
 }
+
 @media only screen and (max-width: 370px) {
     :root {
         --rem05: 0.3rem;
@@ -103,15 +104,17 @@
     body .txtx {
         font-size: calc(var(--rem2) * 1.25);
     }
-    body .txtx strong{
+    body .txtx strong {
         font-size: calc(var(--rem3));
     }
 }
 
-:root {
-    --black: rgb(26, 24, 24);
-    --black2: rgb(48, 43, 43);
-    --gold: rgb(219, 216, 28);
+.slz {
+    opacity: 0;
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    object-fit: fill;
 }
 
 .head {
@@ -119,37 +122,40 @@
     position: relative;
     width: 100%;
     z-index: 5;
+    overflow: hidden;
 }
 
 .txtx {
     z-index: 3;
     width: max-content;
     color: white;
-    text-align: left;
-    text-align-last: left;
+    text-align: center;
+    text-align-last: center;
     position: absolute;
-    top: 18%;
-    left: 18%;
-    transform: translate(-18%, -18%);
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: var(--rem35);
-    font-family: "raleway", sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     text-transform: capitalize;
     transition-property: opacity;
     transition-delay: 1s;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
-    text-shadow: calc(var(--rem05) * -1) var(--rem05) var(--rem05) black;
+    text-shadow: calc(var(--rem05) * -1) var(--rem05) var(--rem05)
+        rgba(0, 0, 0, 0.514);
 }
 .txtx strong {
-    color: darkblue;
-    font-size: var(--rem5);
+    color: #083aa9;
+    font-size: calc(var(--rem4) * 1.5);
     stroke: black;
     text-shadow: calc(var(--rem05) * -1) var(--rem05) var(--rem05) black;
     transition-property: opacity;
     transition-delay: 1s;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    font-family: "Times New Roman", Times, serif;
 }
 .mid {
     width: 100%;
@@ -167,26 +173,54 @@
     height: 100%;
     right: 0;
     z-index: 1;
+    object-fit: fill;
+}
+.bg1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+    z-index: 1;
+    object-fit: fill;
 }
 
 .slz {
-    opacity: 0;
     width: 100%;
-    transition-property: opacity;
-    transition-delay: 0s;
-    transition-duration: 1s;
-    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    overflow: hidden;
 }
 
 .lnkbtn {
     border-radius: 5%;
-    background-color: darkblue;
+    background: #083aa9;
     color: white;
     padding: var(--rem1);
     text-decoration: none;
 }
 
 .lnkbtn:hover {
-    background-color: yellow;
+    background-color: darkblue;
 }
 
+.come {
+    animation: 1s forwards come;
+}
+.go {
+    animation: 1s forwards go;
+}
+
+@keyframes come {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
+}
+@keyframes go {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}

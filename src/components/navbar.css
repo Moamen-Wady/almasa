@@ -77,7 +77,7 @@
     }
 }
 
-@media only screen and (max-width: 465px) {
+@media only screen and (max-width: 485px) {
     :root {
         --rem05: 0.3rem;
         --rem1: 0.65rem;
@@ -111,6 +111,11 @@
     }
 }
 
+@media only screen and (max-width: 415px) and (min-width: 376px) {
+    body .ul1 {
+        font-size: calc(var(--rem1) * 1.1);
+    }
+}
 @media only screen and (max-width: 375px) {
     :root {
         --rem05: 0.3rem;
@@ -151,7 +156,7 @@
         float: none;
         display: inline-block;
     }
-    body .img1 {
+    body .ul1 .img1 {
         display: none;
     }
 }
@@ -196,7 +201,7 @@
         float: none;
         display: inline-block;
     }
-    body .img1 {
+    body .ul1 .img1 {
         display: none;
     }
 }
@@ -241,7 +246,7 @@
         float: none;
         display: inline-block;
     }
-    body .img1 {
+    body .ul1 .img1 {
         width: calc(var(--rem5) * 1.4);
         vertical-align: sub;
     }
@@ -287,7 +292,7 @@
         float: none;
         display: inline-block;
     }
-    body .img1 {
+    body .ul1 .img1 {
         width: calc(var(--rem5) * 1.4);
         vertical-align: sub;
     }
@@ -300,33 +305,37 @@
 }
 
 .nvbr {
-    background: darkblue;
+    background: linear-gradient(#083AA9, transparent);
     display: block;
+    height: max-content;
+    max-height: fit-content;
 }
 
 .topbar {
+    max-height: fit-content;
     margin: 0;
-    border-bottom: 1px solid black;
-    font-family: "raleway", sans-serif;
+    font-family: "El Messiri", sans-serif;
     font-style: italic;
+    height: max-content;
 }
 
 .topbar > div {
     padding-left: 5%;
     padding-right: 5%;
+    height: max-content;
 }
 .topbar p {
-    color: white;
+    color: whitesmoke;
     display: inline-block;
-    font-size: var(--rem1);
+    font-size: calc(var(--rem1) * 0.9);
 }
 .lgs {
     margin: 0;
     float: right;
 }
 .lgs img {
-    width: var(--rem2);
-    height: var(--rem2);
+    width: calc(var(--rem1) * 1.55);
+    height: calc(var(--rem1) * 1.55);
     margin: var(--rem05);
     float: right;
 }
@@ -341,18 +350,20 @@
     width: 100%;
     margin: 0;
     z-index: 5000;
-    font-size: calc(var(--rem1) * 1.25);
-    font-family: "Barlow", sans-serif;
-    font-weight: bold;
+    font-size: calc(var(--rem1) * 1.3);
+    font-family: "El Messiri", sans-serif;
     position: sticky;
     top: 0;
-    background: darkblue;
+    background: white;
     transition-property: position;
     transition-duration: 1s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
     box-sizing: border-box;
-    border-bottom: 2px solid black;
+    background-image: url("../../public/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .l,
@@ -374,7 +385,7 @@
 
 .r .ll {
     display: block;
-    color: white;
+    color: #083AA9;
     text-align: center;
     text-decoration: none;
     padding: var(--rem105);
@@ -383,13 +394,14 @@
 }
 
 .r .ll:hover {
-    background-color: #17b8e6;
-    color: white;
+    background: #083AA9;
+    color:white;
+
 }
 
 .l .ll {
     display: block;
-    color: white;
+    color: #083AA9;
     text-align: center;
     text-decoration: none;
     padding: var(--rem105);
@@ -405,15 +417,15 @@
 }
 
 .l .ll:hover {
-    background-color: #17b8e6;
-    color: white;
+    background: #083AA9;
+    color:white;
 }
 
-.img1 {
+.ul1 .img1 {
     display: inline;
     margin: 0;
-    margin-left: var(--rem2);
-    width: calc(var(--rem5) * 1.5);
+    width: var(--rem5);
+    float: left;
 }
 .himg {
     width: var(--rem4);
@@ -455,45 +467,4 @@
     background-color: black;
     color: white;
     z-index: 999999999999999999;
-}
-
-.ncontact {
-    padding-right: var(--rem05);
-    padding-left: var(--rem05);
-}
-
-.ncontact h1 {
-    font-size: var(--rem2);
-    font-family: "Hammer one", sans-serif;
-}
-.ncontact p {
-    display: inline;
-    font-size: calc(var(--rem1) * 0.8);
-    color: darkblue;
-    text-decoration: none;
-    font-family: "Catamaran", sans-serif;
-    font-weight: bold;
-    margin-right: var(--rem1);
-    max-width: var(--rem5);
-}
-.ncontact a {
-    font-size: calc(var(--rem1) * 0.8);
-    color: darkblue;
-    text-decoration: none;
-    display: inline;
-}
-.ncontact > img {
-    width: var(--rem2);
-    height: var(--rem2);
-    margin: var(--rem05);
-    display: inline;
-    vertical-align: middle;
-}
-
-.mid-nvb {
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
 }

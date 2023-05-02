@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Thank You</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="/logo.png" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+            name="description"
+            content="Web site created with love not for money hhh"
+        />
+        <link rel="apple-touch-icon" href="/logo192.png" />
+        <link rel="manifest" href="/manifest.json" />
+    </head>
+    <body>
+        <div
+            style="
+                margin: auto;
+                text-align: center;
+                font-size: 2rem;
+                width: 100%;
+                color: rgb(26, 22, 22);
+            "
+        >
+            <img src="logo.png" alt="" />
+            <div
+                style="
+                    border: 2px dashed gold;
+                    max-width: fit-content;
+                    margin: auto;
+                    padding: 1rem;
+                "
+            >
+                <p>Your Message Has Been Sent</p>
+                <p>Thank You For Getting In Touch With Us</p>
+                <p>
+                    You Are Being Redirected To:
+                    <a
+                        id="rdr"
+                        style="text-decoration: none; display: inline"
+                        href="https://damansolutions.com"
+                        >damansolutions.com</a
+                    >
+                </p>
+            </div>
+        </div>
+        <script>
+            function x() {
+                setTimeout(() => {
+                    document.getElementById("rdr").click();
+                }, 4000);
+            }
+            x();
+        </script>
+    </body>
+</html>

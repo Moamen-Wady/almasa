@@ -2,77 +2,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 
-@media only screen and (max-width: 800px) and (min-width: 700px) {
-    body .container {
-        transform: scale(0.8);
-    }
-}
-@media only screen and (max-width: 600px) and (min-width: 520px) {
-    body .container {
-        transform: scale(0.8);
-    }
-}
-@media only screen and (max-width: 520px) and (min-width: 480px) {
-    body .container {
-        transform: scale(0.7);
-    }
-}
-@media only screen and (max-width: 480px) and (min-width: 420px) {
-    body .container {
-        transform: scale(0.75);
-    }
-    body .form1 {
-        width: calc(var(--rem5) * 10);
-    }
-    body .form {
-        width: 87%;
-    }
-}
-@media only screen and (max-width: 419px) and (min-width: 335px) {
-    body .container {
-        transform: scale(0.75);
-    }
-    body .form1 {
-        width: calc(var(--rem5) * 8);
-    }
-    body .form {
-        width: 84%;
-    }
-}
-@media only screen and (max-width: 334px) and (min-width: 280px) {
-    body .container {
-        transform: scale(0.9);
-    }
-    body .form1 {
-        width: calc(var(--rem5) * 6);
-    }
-    body .form {
-        width: 79%;
-    }
+@media only screen and (max-width: 500px) {
     body .form input {
-        width: 70%;
+        font-size: calc(var(--rem1));
+    }
+    body .form textarea {
+        font-size: calc(var(--rem1));
     }
 }
-@media only screen and (max-width: 699px) and (min-width: 651px) {
-    body .container {
-        transform: scale(0.6);
+@media only screen and (max-width: 410px) {
+    body .form input {
+        font-size: calc(var(--rem1) * 0.8);
+    }
+    body .form textarea {
+        font-size: calc(var(--rem1) * 0.8);
     }
 }
-.container {
+@media only screen and (max-width: 328px) {
+    body .form input {
+        font-size: calc(var(--rem1) * 0.7);
+    }
+    body .form textarea {
+        font-size: calc(var(--rem1) * 0.7);
+    }
+}
+
+#container {
     display: block;
     width: 100%;
 }
 
 .form {
-    width: 89%;
-    background-color: blue;
+    width: 80%;
+    background-color: #538391;
     text-align: center;
     overflow: hidden;
     border-radius: 5%;
     border: 3px solid black;
-    margin-top: var(--rem2);
+    margin: auto;
+    margin-top: var(--rem3);
     margin-bottom: var(--rem2);
-    margin-left: var(--rem2);
     padding: var(--rem2);
     padding-left: 0;
 }
@@ -108,20 +77,23 @@
 
 .form input {
     display: block;
-    width: 60%;
+    width: 80%;
     margin: auto;
-    margin-top: 3%;
-    background-color: rgb(240, 234, 186);
+    margin-top: 1%;
+    background-color: rgb(186, 227, 240);
     color: black;
-    height: var(--rem2);
+    height: max-content;
     font-size: calc(var(--rem1) * 1.2);
+    border: 1px solid grey;
+    padding: 1%;
 }
 .form textarea {
     display: block;
-    width: 60%;
+    padding: 1%;
+    width: 80%;
     margin: auto;
     margin-top: 3%;
-    background-color: rgb(240, 234, 186);
+    background-color: rgb(186, 227, 240);
     color: black;
     height: var(--rem5);
     font-size: calc(var(--rem1) * 1.25);
@@ -156,7 +128,7 @@
 
 .form button {
     appearance: none;
-    padding: 0;
+    padding: 1%;
     background-color: transparent;
     border: 0;
     margin: var(--rem1);
@@ -164,5 +136,7 @@
 .form input:nth-last-child(1) {
     display: inline-block;
     cursor: pointer;
-    width: 30%;
+    width: 15%;
+    height: max-content;
+    padding: 1%;
 }

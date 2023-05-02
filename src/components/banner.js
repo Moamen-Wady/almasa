@@ -25,23 +25,22 @@ export default function Banner() {
         <header className='head ' >
             <div id={ 0 } className='slz '>
                 <p className='txtx '>Welcome To  <br /><br /> <strong>AlMASA</strong> .</p>
-                <img src='btw.png' alt='' className='mid' />
-                <img src='1.jpeg' alt='' className='bg ' />
+                <img src='11.jpg' alt='' className='bg ' />
             </div>
             <div id={ 1 } className='slz '>
                 <p className='txtx '>We Are Experienced<br /><br /> In Plastic Solutions.</p>
                 <img src='btw.png' alt='' className='mid' />
-                <img src='2.jpeg' alt='' className='bg ' />
+                <img src='2.jpg' alt='' className='bg ' />
             </div>
             <div id={ 2 } className='slz '>
                 <p className='txtx '>Variety Of Plastic <br /><br />Containers And Products </p>
                 <img src='btw.png' alt='' className='mid' />
-                <img src='3.jpeg' alt='' className='bg ' />
+                <img src='3.jpg' alt='' className='bg ' />
             </div>
             <div id={ 3 } className='slz '>
                 <p className='txtx '>What Are You Waiting?<br /><br /><Link to='/Contactus' className='lnkbtn'>Contact Us</Link> Now!  </p>
                 <img src='btw.png' alt='' className='mid' />
-                <img src='4.jpeg' alt='' className='bg ' />
+                <img src='4.jpg' alt='' className='bg ' />
             </div>
         </header>
     )

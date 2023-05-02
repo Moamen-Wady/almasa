@@ -11,10 +11,11 @@ export default function Ul() {
     return (
         <>
             <ul className='ul1 '>
+                <img className='img1 ' src='logo.jpg' alt='' />
                 <li className='l '><Link to='/#mm' className='ll '><p>Home</p></Link></li>
                 <li className='l '><Link to='/Products#mm' className='ll '><p>Products</p></Link></li>
                 <li className='l '><Link to='/Aboutus#mm' className='ll '><p>About Us</p></Link></li>
-                <li className='r '><Link to='/Contactus#mm' className='ll '><p>Contact Us Now !</p></Link></li>
+                <li className='r '><Link to='/Contactus#container' className='ll ' id="rdr"><p>Contact Us Now !</p></Link></li>
             </ul>
         </>
     )

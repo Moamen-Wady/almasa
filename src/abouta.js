@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react'
 import './abouta.css'
-import Clientsa from './components/clientsa'
 import Navbara from './components/navbara'
 import Footera from './components/footera'
-import Prefootera from './components/prefootera'
 import Bannera from './components/bannera'
 import Ula from './components/ula'
-
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -26,86 +23,140 @@ export default function Aboutusa() {
     }
 
     useEffect( () => scrollToHash(), [] )
+
     return (
         <>
             <Navbara />
             <Ula />
             <Bannera />
 
-            <div className='aaboutcont'>
-                <div className='afirst ax8'>
-                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn" duration={ 1.5 }>
+            <div className='aaboutcont' >
+                <div className='afirst x8'>
+                    <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeIn" duration={ 1.5 }>
 
-                        <h1>عن ضمان</h1>
+                        <h1>عن الماسة</h1>
                         <p>
-                            <b> السعادة .. </ b> عندما أطلق صاحب السمو الشيخ محمد بن راشد آل مكتوم نائب رئيس الدولة ،
-                            رئيس الوزراء وحاكم دبي أجندة السعادة ، قد عرفنا بكل تأكيد
-                            أننا سنكون جزءًا لا يتجزأ من هذه الخطوة التي من المتوقع أن ينتج عنها العديد
-                            من التغييرات وتؤدي إلى تعزيز العديد من القطاعات. لأن هذه الأجندة تهدف إلى تحقيق
-                            إسعاد الناس ، فإنها بدورها ستشجع الإبداع وتقلل الكثير من الأعباء
-                            التي تعيق التقدم والتنمية ليس فقط على المستوى الفردي والاجتماعي ،
-                            بل الأمة ككل.
+                            نحن ملتزمون بتقديم مجموعة متنوعة من الحاويات البلاستيكية.
+                            في الوقت الحالي على وجه الخصوص ، نحن نفعل كل ما في وسعنا لتقديم
+                            العبوة المطلوبة لمنتجك للوصول إلى السوق.
+                            هدفنا هو إبهارك الآن وطوال عمر عملك.
                         </p>
                     </AnimationOnScroll>
                 </div>
 
                 <div className='asnd'>
                     <ul>
-
-                        <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInRight" delay={ 300 } >
-                            <li>توفير الأسس للشركات والمشاريع الكبرى.</li>
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 300 } >
+                            <li>- نظام مراقبة الجودة</li>
                         </AnimationOnScroll>
 
-                        <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInRight" delay={ 400 } >
-                            <li>وضع خطط إستراتيجية طويلة المدى.</li>
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 400 } >
+                            <li>- محترفون ومؤهلون</li>
                         </AnimationOnScroll>
 
-                        <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInRight" delay={ 500 } >
-                            <li>تحديد نهج ونظام متكامل من قبل خبرائنا
-                                لضمان القدرة على المنافسة.</li>
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 500 } >
+                            <li>- 100٪ ضمان الرضا</li>
                         </AnimationOnScroll>
 
-                        <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInRight" delay={ 600 } >
-                            <li>إجراء جميع التعاملات الحكومية والتعامل مع الأوراق اللازمة.</li>
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 600 } >
+                            <li>- مواد خام آمنة بيئيا</li>
                         </AnimationOnScroll>
+
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 600 } >
+                            <li>- فريق عمل محترف للغاية</li>
+                        </AnimationOnScroll>
+
+                        <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInLeft" delay={ 600 } >
+                            <li>- حلول مخصصة</li>
+                        </AnimationOnScroll>
+
                     </ul>
+
                     <img src='2.jpg' alt='future development' />
                 </div>
 
                 <div className='afirst'>
 
                     <p>
-                        لذلك ، ضمان لدينا هنا للمساهمة في ذلك عن طريق التعريف
-                        بمجموعة متنوعة من الخدمات والحلول المبتكرة التي تجعل الحياة أسهل و
-                        خلق بيئة مواتية لنجاح وتطوير كلا
-                        الشركات الكبيرة والناشئة. تمتد هذه الخدمات أيضًا إلى الأفراد
-                        وتمهيد الطريق لهم لرفع طاقاتهم الإنتاجية والتغلب على
-                        العوائق المتعلقة بتصاريح الإقامة وبطاقات الهوية وما إلى ذلك. على هذا الحساب،
-                        نحن فخورون بأن نلعب دورًا في نشر السعادة من خلال
-                        فرق متفانية تعمل بلا كلل لخدمتك أينما كنت.                    </p>
+                        لذلك ، نحن نفهم تمامًا حاجتك.
+                        بعد كل شيء ، نحن في الماسة لدينا نفس الحاجة.
+                        لهذا السبب نقوم بتصنيع العبوات البلاستيكية لأسلوب حياة صحي وأفضل
+                        التي تتميز بأعلى جودة وتصميم أكثر فائدة.
+                    </p>
                     <hr style={ { width: '80%' } } />
                 </div>
 
-                <div className='athrd'>
-                    <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInDown" delay={ 300 } >
-                        <h1>مبادؤنا الاساسية</h1>
+                <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeIn">
+
+                    <div className='avismis '>
+                        <div className='anos '>
+                            <img src='light.png' alt='' />
+                            <h1>رؤيتنا</h1>
+                            <p>لتقديم مجموعة متنوعة من الحاويات البلاستيكية.
+                                خاصة في الوقت الحالي ، نحن نفعل كل شيء
+                                يمكننا توفير العبوة اللازمة لك
+                                منتج لتصل إلى السوق. هدفنا هو إبهارك ،
+                                الآن وطوال عمر عملك.
+                            </p>
+                        </div>
+                        <div className='anos '>
+                            <img src='target.png' alt='' />
+                            <h1>مهمتنا</h1>
+                            <p>نحن ملتزمون بتقديم مجموعة متنوعة من الحاويات البلاستيكية.
+                                في الوقت الحالي على وجه الخصوص ، نحن نبذل قصارى جهدنا لتقديم
+                                العبوة اللازمة لمنتجك للوصول إلى السوق.
+                                هدفنا هو إبهارك الآن وطوال عمر عملك.
+                            </p>
+                        </div>
+                    </div>
+                </AnimationOnScroll>
+
+
+                <div className='athrd' >
+
+                    <AnimationOnScroll animateOnce={ true } animateIn="animate__fadeInDown" delay={ 300 } >
+                        <h1>مبادءنا الاساسية</h1>
                         <div className='asubthrd' >
                             <div>
-                                <p>&#9733; ملتزمون بتحقيق افضل النتائج</p>
-                                <p>&#9733; نهتم بمشروعك كما لو كان ملكنا</p>
-                            </div></div>
+                                <p> ملتزمون بتقديم الأفضل.</p>
+                                <p> نستمر في التعلم والتكيف مع التقنيات الجديدة. </p>
+                            </div>
+                        </div>
                         <div className='asubthrd' >
                             <div>
-                                <p>&#9733; خدمات شفافة وصادقة </p>
-                                <p>&#9733; الاستمرار في التعلم والتكيف مع التقنيات الجديدة </p>
+                                <p> خدمات صادقة وشفافة. </p>
+                                <p> نحن نهتم بعملك تمامًا مثل أعمالنا.</p>
                             </div></div>
                     </AnimationOnScroll>
                 </div>
-                <AnimationOnScroll animateOnce={true} animateIn="animate__jackInTheBox">
-                    <Clientsa />
+
+                <AnimationOnScroll animateOnce={ true } animateIn="animate__backInLeft">
+                    <div className='aadvcont '>
+                        <h1>لماذا تختارنا بالضبط؟</h1>
+                        <p>نحن ننتج راتينج عالي المرونة وعديم اللون وشبه بلوري في حالته الطبيعية.
+                            اعتمادًا على كيفية معالجتها ، يمكن أن تكون شبه صلبة إلى صلبة. يظهر بعدا جيد
+                            الاستقرار ومقاومة الصدمات والرطوبة والكحول والمذيبات.
+                        </p>
+                        <div className='aadv '>
+                            <div className='aadvgrid '>
+                                <div>
+                                    <img src='light.png' alt='' />
+                                    <p>أكثر من 30 عامًا من الثقة العالمية <br /> <br /> لقد تم إثبات سلامة PET للأطعمة والمشروبات والأدوية والتطبيقات الطبية بشكل متكرر من خلال دراسات مكثفة ،
+                                        الموافقات التنظيمية والاختبارات وقبولها على نطاق واسع لأكثر من 30 عامًا.</p>
+                                </div>
+                                <div>
+                                    <img src='ef.png' alt='' />
+                                    <p>السلامة والاستدامة <br /> <br /> نستخدم مادة البولي إيثيلين تيرفثالات حيث تمت الموافقة على أنها آمنة للتلامس مع الأطعمة
+                                        والمشروبات من قبل إدارة الغذاء والدواء ووكالات السلامة الصحية في جميع أنحاء العالم.
+                                        لا تحتوي PET على ثنائي الفينول أ (BPA) أو الفثالات (الملدنات).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </AnimationOnScroll>
+
             </div>
-            <Prefootera />
             <Footera />
 
         </>

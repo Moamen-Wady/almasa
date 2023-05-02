@@ -15,13 +15,12 @@ export default function Navbara() {
         <div className='anvbr ' id="mm">
             <div className='atopbar '>
                 <div>
-                    <p>تطمح إلى شركة ناشئة عظيمة ..؟ مرحبًا بك في المكان المناسب</p>
+                    <p>مرحبا بكم في الماسة</p>
                     <div className='algs '>
                         <div className="alang">
                             <span><img src='uae.png' alt='' /></span>
                             <div className="alangc">
-                                <Link to={ '/' + en } className='alanlink'>English</Link>
-                                <Link to={ p } className='alanlink'>العربية</Link>
+                                <Link to={ '/' + en} className='alanlink'>English</Link>
                             </div>
                         </div>
                         <a
@@ -30,7 +29,7 @@ export default function Navbara() {
                         ><img src="fb.png" alt=""
                             /></a>
                         <a
-                            href="https://instagram.com/"
+                            href="https://instagram.com/almasapackpackaging?igshid=YmMyMTA2M2Y="
                             target="_blank" rel="noreferrer"
                         ><img src="ig.png" alt=""
                             /></a>

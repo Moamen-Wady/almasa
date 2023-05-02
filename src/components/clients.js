@@ -18,7 +18,7 @@ export default function Clients() {
 
                 <div className=' clients '>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trig }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -31,7 +31,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trig }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -44,7 +44,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trig }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -57,7 +57,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trigm }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -70,7 +70,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trigm }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -83,7 +83,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trigm }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -100,7 +100,7 @@ export default function Clients() {
 
                 <div className=' clients '>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trig }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -113,7 +113,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trig }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -126,7 +126,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trig }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -139,7 +139,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trigm }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -152,7 +152,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trigm }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>
@@ -165,7 +165,7 @@ export default function Clients() {
                         </div>
                     </div>
                     <div className="ccard">
-                        <img src='1.jpeg' alt='' />
+                        <img src='1.jpg' alt='' />
                         <div className="overlay" onMouseEnter={ trigm }>
                             <div className="ctext">
                                 <AnimationOnScroll offset={ 50 } animateIn="animate__fadeInLeft" duration={ .3 }>

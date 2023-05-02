@@ -7,24 +7,46 @@ export default function Footera() {
     return (
         <footer className='aff '>
             <div className='amap '>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1242.2687233704498!2d55.30163847722248!3d25.15577871046888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69b334b7d3bb%3A0x4cc18e99b55206b1!2sDND%20Events%20L.L.C-FZ!5e0!3m2!1sar!2seg!4v1679330132381!5m2!1sar!2seg"
+                <div className='axfc'>
+                    <div className='acontainer'>
+                        <div className='form'>
+                            <img src='/logon.jpg' alt='' />
+                            <p>
+                                Required Informations
+                            </p>
+                            <form action="submit.php" method="post" id="form">
+                                <input type="text" id="name" name="name" placeholder='Name / الاسم' />
+
+                                <input type="email" id="email" name="email" placeholder='E-mail / الايميل' />
+
+                                <input type="tel" id="phone" name="phone" placeholder='Your Phone Number / رقم التليفون' />
+
+                                <textarea id="notes" name="notes" placeholder='Notes / ملاحظات'></textarea>
+
+                                <input type="submit" value="Submit" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3419.405306345188!2d29.839245815138277!3d31.01495548153981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDAwJzUzLjgiTiAyOcKwNTAnMjkuMiJF!5e0!3m2!1sen!2seg!4v1683054384097!5m2!1sen!2seg"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     title='location'
                 >
                 </iframe>
             </div>
+
             <div className='axcon '>
                 <div className='aportion '>
                     <div className='algsf '>
-                        <img className='aimx ' src='logo.png' alt='' />
+                        <img className='aimx ' src='logon.jpg' alt='' />
                         <a
                             href="https://www.facebook.com/"
                             target="_blank" rel="noreferrer"
                         ><img src="fb.png" alt=""
                             /></a>
                         <a
-                            href="https://instagram.com/"
+                            href="https://instagram.com/almasapackpackaging?igshid=YmMyMTA2M2Y="
                             target="_blank" rel="noreferrer"
                         ><img src="ig.png" alt=""
                             /></a>
@@ -42,33 +64,33 @@ export default function Footera() {
 
                     <ul className='aful '>
                         <li className='axl '><Link to='/#mm' className='all '><p>الصفحة الرئيسية</p></Link></li>
-                        <li className='axl '><Link to='/Services#mm' className='all '><p>الخدمات</p></Link></li>
-                        <li className='axl '><Link to='/Aboutus#mm' className='all '><p>اعرف عنا</p></Link></li>
-                        <li className='axl '><Link to='/Contactus#mm' className='all '><p>تواصل معنا الاّن</p></Link></li>
+                        <li className='axl '><Link to='/Products#mm' className='all '><p>المنتجات</p></Link></li>
+                        <li className='axl '><Link to='/Aboutus#mm' className='all '><p>عن الماسة</p></Link></li>
+                        <li className='axl '><Link to='/Contactus#mm' className='all '><p>تواصل معنا</p></Link></li>
                     </ul>
                 </div>
                 <div className='aportion '>
                     <div className='acontact '>
-                        <h1>معلومات التواصل</h1>
+                        <h1>الماسة للتعبئة</h1>
                         <p>
-                            أبجد هوز دولور الجلوس امات،
-                            إقامة العدل ،
-                            قد أسمع ، أخيرًا ، يتم توسيعها
-                            على سبيل المثال ، عامل مهمل معين.
-                            Mazim. غير عادي أو شيء من هذا القبيل.
+                            نحن ملتزمون بتقديم مجموعة متنوعة من الحاويات البلاستيكية.
+                            في الوقت الحالي على وجه الخصوص ، نحن نفعل كل ما في وسعنا لتقديم
+                            العبوة المطلوبة لمنتجك للوصول إلى السوق.
+                            هدفنا هو إبهارك الآن وطوال عمر عملك.
                         </p>
                         <p>
-                            <img src='location.png' alt='location' /> مركز الأعمال 1 ، طابق الميزانين ، فندق الميدان ، ند الشبا ، دبي ، الإمارات العربية المتحدة.
-
+                            <img src='location.png' alt='location' /> قطاع النهضة, عامرية 1, الاسكندرية 5253703
                         </p>
                         <p>
-                            <img src='phone.png' alt='phone' /> <a href="tel:0547807870">0547807870</a>
+                            <img src='phone.png' alt='phone' /> <a href="tel:+20 110 112 2013">+20 110 112 2013</a>
                         </p>
                         <p>
-                            <img src='mail.png' alt='mail' /> <a href="mailto:Info@damansolutions.com">Info@damansolutions.com</a>
+                            <img src='mail.png' alt='mail' /> <a href="mailto:Info@damansolutions.com">Info@almasa.com</a>
                         </p>
                     </div>
                 </div>
+
+
             </div>
         </footer>
     )

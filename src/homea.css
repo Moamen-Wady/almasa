@@ -1,6 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Marhey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap");
 
 @media only screen and (max-width: 850px) {
     body .atelt h1 {
@@ -40,7 +49,7 @@
         width: 90%;
     }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
     body .atelt {
         width: 90%;
     }
@@ -57,10 +66,26 @@
     body .awhyus {
         display: block;
     }
-}
-
-.a {
-    direction: rtl;
+    body .avismis {
+        display: block;
+    }
+    body .anos,
+    body .anos1,
+    body .anos2 {
+        margin: auto;
+        width: 90%;
+        padding: var(--rem1);
+    }
+    body .anos img {
+        float: left;
+        margin: var(--rem1);
+    }
+    body .anos2 img {
+        transform: none;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
 }
 
 .awhyuscont {
@@ -69,16 +94,17 @@
     margin: auto;
     padding-top: var(--rem1);
     margin-bottom: var(--rem2);
+    overflow: hidden;
 }
 
 .awhyuscont h1 {
     font-size: var(--rem3);
-    color: var(--black2);
+    color: #083aa9;
     display: block;
     margin: auto;
     margin-top: var(--rem1);
     margin-bottom: var(--rem2);
-    font-family: "Lemonada", cursive;
+    font-family: "El Messiri", sans-serif;
 }
 
 .awhyus {
@@ -86,6 +112,24 @@
     align-items: flex-start;
     justify-content: space-evenly;
 }
+
+.anos1 ul {
+    max-width: fit-content;
+    display: block;
+    font-size: calc(var(--rem1) * 1.4);
+    text-transform: capitalize;
+    list-style-type: disc;
+    margin: var(--rem05);
+    color:black;
+    text-align: left;
+}
+
+.anos1 li {
+    margin-top: var(--rem1);
+    display: inline-block;
+    text-align: left;
+}
+
 
 .atelt {
     width: 32%;
@@ -97,25 +141,26 @@
     width: 80%;
     display: block;
     margin: auto;
-    border: 1px dashed darkblue;
+    border: 1px dashed goldenrod;
     border-radius: 5%;
 }
 
 .atelt h1 {
-    font-family: "Lemonada", cursive;
+    font-family: "El Messiri", sans-serif;
     font-weight: 500;
     font-size: var(--rem2);
-    color: darkblue;
+    color: #083aa9;
     margin: var(--rem05);
 }
 
 .atelt p {
-    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-family: "El Messiri", sans-serif;
     font-size: calc(var(--rem1) * 1.2);
     text-transform: capitalize;
-    text-align: right;
+    text-align: left;
     padding: var(--rem05);
-    font-weight: bold;
+    font-weight: 300;
+    color: black;
 }
 
 .avismis {
@@ -124,6 +169,8 @@
     align-items: flex-start;
     justify-content: space-evenly;
     text-align: center;
+    margin-bottom: var(--rem2);
+    overflow: hidden;
 }
 
 .anos {
@@ -139,20 +186,66 @@
 }
 
 .anos h1 {
-    font-family: "Lemonada", cursive;
-    font-weight: 500;
+    font-family: "El Messiri", sans-serif;
     font-size: var(--rem2);
-    color: darkblue;
+    color: #083aa9;
     margin: var(--rem5);
     display: block;
     margin: auto;
 }
 
 .anos p {
-    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-family: "El Messiri", sans-serif;
     font-size: calc(var(--rem1));
     text-transform: capitalize;
-    text-align: justify;
+    text-align: left;
+    font-weight: 300;
+    color: black;
+}
+.anos1 {
+    width: 40%;
+}
+.anos2 {
+    width: 35%;
+}
+
+.anos2 img {
+    width: 100%;
+    height: calc(var(--rem5) * 5);
+    transform: translateY(10%);
+}
+.anos1 img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: var(--rem2);
+}
+
+.anos1 h1 {
+    font-family: "El Messiri", sans-serif;
+    font-size: var(--rem2);
+    color: #083aa9;
+    text-align: left;
+    margin: 0;
+}
+
+.anos1 p {
+    font-family: "El Messiri", sans-serif;
+    font-size: calc(var(--rem1) * 1.25);
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 300;
+    color: black;
+}
+
+.anos1 ul li {
+color: black;
+}
+
+.anos1 b {
+display: inline-block;
+    margin: var(--rem05);
 }
 
 .aidea {
@@ -160,6 +253,7 @@
     margin: auto;
     margin-top: var(--rem1);
     margin-bottom: var(--rem2);
+    overflow: hidden;
 }
 
 .aidea img {
@@ -168,17 +262,18 @@
     display: block;
     margin: auto;
     padding: 1px;
-    border: 1px dashed darkblue;
+    border: 1px dashed goldenrod;
 }
 
 .aidea p {
     font-size: var(--rem105);
-    font-family: "Marhey", cursive;
+    font-family: "Poiret One", cursive;
     font-weight: 900;
     text-align: justify;
     max-width: 90%;
     display: block;
     margin: auto;
+    color: black;
 }
 
 .aidea b {
@@ -186,15 +281,18 @@
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
     font-size: var(--rem2);
-    color: darkblue;
+    color: #083aa9;
 }
 
+.aadvcont {
+    overflow: hidden;
+}
 .aadvcont h1 {
     text-align: center;
-    font-family: "Lemonada", cursive;
+    font-family: "El Messiri", sans-serif;
     font-weight: 500;
     font-size: var(--rem3);
-    color: var(--black2);
+    color: #083aa9;
 }
 
 .aadv {
@@ -208,18 +306,27 @@
     text-align: justify;
 }
 
+.aadvcont > p {
+    font-size: calc(var(--rem1) * 1.2);
+    font-family: "El Messiri", sans-serif;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+    display: block;
+    color: black;
+}
 .aadv > p {
     font-size: calc(var(--rem1) * 1.2);
-    font-family: "IBM Plex Sans Arabic", sans-serif;
-    font-weight: 600;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 300;
     width: 55%;
     margin-left: 5%;
     margin-right: 5%;
+    color: black;
 }
 .aadvgrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     width: 80%;
     gap: 5px;
     font-size: var(--rem1);
@@ -240,8 +347,125 @@
 .aadvgrid p {
     display: inline-block;
     width: 60%;
-    font-family: "IBM Plex Sans Arabic", sans-serif;
-    font-weight: 900;
-    text-align: right;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    color: black;
+}
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+    body .atelts h1 {
+        font-size: calc(var(--rem1) * 1.8);
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    body .atelts h1 {
+        font-size: calc(var(--rem1) * 1.5);
+    }
+}
+@media only screen and (max-width: 675px) {
+    body .atelts h1 {
+        font-size: calc(var(--rem1) * 1.4);
+    }
+}
+@media only screen and (max-width: 768px) {
+    body .atelts {
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-top: var(--rem1);
+        margin-bottom: var(--rem1);
+    }
+    body .atelts h1 {
+        font-size: calc(var(--rem1) * 3);
+    }
+    body .atelts p {
+        font-size: calc(var(--rem1) * 1.5);
+    }
+    body .aserv {
+        display: block;
+    }
+}
+
+.aservcont {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: var(--rem1);
+    margin-bottom: var(--rem2);
+    overflow: hidden;
+}
+
+.aservcont * {
+    overflow: hidden;
+}
+
+.aservcont h1 {
+    font-size: var(--rem3);
     color: var(--black2);
+    display: block;
+    margin: auto;
+    margin-top: var(--rem1);
+    margin-bottom: var(--rem2);
+    font-family: "El Messiri", sans-serif;
+    color: #083AA9;
+}
+
+.aserv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.atelts {
+    width: 30%;
+    height: max(calc(var(--rem5) * 4), max-content);
+    margin: var(--rem05);
+}
+
+.atelts div {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.atelts div > div {
+    padding: var(--rem05);
+}
+
+.atelts h1 {
+    font-family: "El Messiri", sans-serif;
+    font-size: var(--rem2);
+    color: #083AA9;
+    margin: var(--rem05);
+}
+
+.atelts p {
+    font-family: "El Messiri", sans-serif;
+    font-size: calc(var(--rem1) * 1.2);
+    text-transform: capitalize;
+    text-align: left;
+    color: black;
+}
+
+.atelts ul {
+    font-family: sans-serif;
+    font-size: calc(var(--rem1) * 1.2);
+    text-transform: capitalize;
+    text-align: left;
+    text-align-last: left;
+    color: var(--black2);
+}
+
+.atelts li {
+    margin-top: var(--rem1);
+    color: black;
+}
+
+.atelts img {
+    width: 15%;
 }
